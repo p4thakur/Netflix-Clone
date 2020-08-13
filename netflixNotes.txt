@@ -1,0 +1,70 @@
+npx create-react-app  netflix-clone  // it will initilize my react project
+
+
+sudo npm install -g firebase-tools  command that contain - g usually require sudo....
+
+npm start my react app on localhost
+
+axio is like postman to us  //npm i axios  //i=install
+###################################
+
+my conatin naming convention--> file name start with capitoal letter
+other files lower case
+
+######################
+every single row in my netflix app is single component...
+
+########################
+rfce enter--
+
+
+
+state is way of storing
+
+const [movies, setMovie]=useState([]) //usedtae is react hook
+
+########################
+  useEffect(()=>{
+
+
+  },[movies]);  it will run everyt ime value of moivies changes
+    useEffect(()=>{
+
+
+  },[]);  it runs once...
+  
+  ########################################
+
+
+you can have one default export in you class. and can have many exports
+
+
+See quakka , its a dubuuger tool.  for visula studio
+console.table() instaed of console.log()  it help me see array in table
+###################################
+some effect not working on firfox so be aware of it...
+
+#########################3
+
+unless and ultill i don't write anything inside my <header> I won't be getting my styling in background
+
+##################
+search how aitcolmole work o=in react + saving coding time tric like button.button_className*2 give you two button with same class name
+div.divclasname.button.buttonClass*2--> this create tow button inside one div
+########################3
+
+I lean how powerful inspoect is. selct inspect htan when I selct inspect from screen I can acctually see what are the values
+that are getting substituted on the apge. each area of page can pe insepcted to know what used where.
+I can used thes to actually build exact clone man. Eaxlt front end. :). I can gett all color value what they used where in page I can just find out usin git.
+This is fucking awesome and extra ordinory...
+I can change style value within inspect to check what happen if i remove something..
+
+##########################################################
+sudo lsof -i :3000  use to find processing running on port 300000. i may not see process if i don't use sudo. specidlaly when i run it using sudo run start
+
+
+ npm i react-youtube
+ 
+ npm i movie-trailer
+
+

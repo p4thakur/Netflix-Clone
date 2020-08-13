@@ -1,0 +1,60 @@
+.banner {
+  color: white;
+  height: 448px;
+  object-fit: contain;
+}
+
+.banner_contents {
+  margin-left: 30px;
+  padding-top: 140px; /*learn more about margin and padding thry give feel to my site*/
+  height: 190px; /* to make sure my content don't overflow*/
+}
+
+.banner_title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem; /*thoda upar karne ke liye button se*/
+}
+
+.banner_description {
+  width: 45rem; /*to keep description in almost half page*/
+  line-height: 1.3; /*gap betwenn the line*/
+  padding-top: 1rem; /*descripton ka top button se dur karne ke liye*/
+  font-size: 0.8rem; /*make it smaller than title*/
+  max-width: 360px; /*1rem =16 px*/
+  height: 80px;
+}
+
+.banner_button {
+  cursor: pointer; /*sjhow point while hovering*/
+  color: #fff; /**white color*/
+  outline: none; /*remove outline an border*/
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw; /**sligtly rounding around corner*/
+  padding-left: 2 rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 1rem; /*this keep two button seprated*/
+  background-color: rgba(51, 51, 51, 0.5); /*light grey in bg*/
+}
+
+.banner_button:hover {
+  color: #000; /**ivert color to balck*/
+  background-color: #fff;
+  transition: all 0.2s; /**giving every sort of transition take 0.2 sec*/
+}
+
+.banner_fadeBottom {
+  height: 7.4rem;
+  /* it say liner gradient means transfer from one color to other
+     in 180 degree, and do this slowly making transparent effect 
+     Read more about it. Thsese small changes what make our sit look great*/
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}

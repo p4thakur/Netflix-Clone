@@ -1,0 +1,41 @@
+.row {
+  margin-left: 20px; /*shifting row componentto right side**/
+  color: #fff; /*to change my hdlin color. I could have create class for heading make that change thser so don't be confuse**/
+}
+
+.row_posters {
+  /**flex hel use covert col to row vice versa*/
+  display: flex;
+  overflow-y: hidden; /*hiding vertical scrol bar for my contnaer*/
+  overflow-x: scroll; /*scrilling in rows*/
+  /**to avoid crpping of images while hover add padding*/
+  padding: 20px;
+}
+
+/**it tell all my brown to act liek this*/
+.row_posters::-webkit-scrollbar {
+  display: none; /*hide scroll bar*/
+}
+
+.row_poster {
+  width: 100%;
+  object-fit: contain; /*this maintain aspect ratio of image*/
+  margin-right: 10px; /*to kepp images seprate in a row*/
+  max-height: 200px;
+  /**make sure that trnsation like hover happen smoothlye**/
+  transition: transform 450ms;
+}
+
+/**when you hove over image*/
+.row_poster:hover {
+  /**scale it to 1.08*/
+  transform: scale(1.08);
+}
+
+.row_posterLarge {
+  max-height: 250px;
+}
+/**make it scale further*/
+.row_posterLarge:hover {
+  transform: scale(1.09);
+}

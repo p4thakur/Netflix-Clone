@@ -1,0 +1,8 @@
+* {
+  margin: 0; /**it helping me remove space betwenn
+  my title and image*/
+}
+
+.app {
+  background-color: #111; /**close to black**/
+}
